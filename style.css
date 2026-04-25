@@ -1,0 +1,81 @@
+body {
+    background-color: #d9f3ff;
+    font-family: Arial;
+    text-align: center;
+	 margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 15px 30px;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links a.active {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.navbar {
+    background-color: #1C97B8;
+    padding: 20px;
+	margin: 0;
+}
+.navbar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color:black;
+}
+h1 {
+    color: #2AA6C9;
+}
+
+.banner {
+    object-fit: cover;
+}
+
+.product {
+    display: inline-block;
+    background: white;
+    color: black;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.intro {
+    font-size: 18px;
+    margin: 20px;
+}
+.text{
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:15px;
+}
+       .subtitle {
+            color: #333;
+            margin-bottom: 20px;
+        }
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
